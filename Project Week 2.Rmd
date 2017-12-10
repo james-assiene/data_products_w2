@@ -1,0 +1,18 @@
+---
+title: "Project Week 2"
+author: "James ASSIENE"
+date: "10 décembre 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(leaflet)
+m <- leaflet()
+m <- addTiles(m)
+m
+```
+
